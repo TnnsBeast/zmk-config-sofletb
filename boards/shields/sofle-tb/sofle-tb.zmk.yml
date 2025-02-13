@@ -1,0 +1,12 @@
+file_format: "1"
+id: sofle-tb
+name: Sofle Trackball
+type: shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - sofle_tb_left
+  - sofle_tbright
