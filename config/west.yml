@@ -1,10 +1,18 @@
 manifest:
   remotes:
+    ...
+    # START #####
     - name: badjeff
       url-base: https://github.com/badjeff
+    # END #######
+    ...
   projects:
-    - name: zmk-pmw3160-driver
+    ...
+    # START #####
+    - name: zmk-pmw3610-driver
       remote: badjeff
       revision: main
+    # END #######
+    ...
   self:
     path: config
