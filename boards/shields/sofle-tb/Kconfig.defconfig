@@ -13,5 +13,9 @@ if SHIELD_SOFLE_TB_LEFT || SHIELD_SOFLE_TB_RIGHT
 
 config ZMK_SPLIT
     default y
+config CONFIG_ZMK_POINTING
+    default y
+config SPI
+    default y
 
 endif
